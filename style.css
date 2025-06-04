@@ -223,18 +223,7 @@ position: relative;
     transition: 0.3s all;
 
   }
-.hero-section {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #000; /* Optional fallback color */
-}
 
-.container {
-  color: white;
-  z-index: 2;
-  position: relative;
-}
   .product:hover .buy-btn{
   transform: translateY(0);
     opacity: 1;
@@ -343,10 +332,10 @@ footer .copyright a:hover{
     color: #fff;
     background-color: #fb774b;
 }
+
 .hero-section {
-  height: auto; /* or a fixed height like 500px */
-  background-size: contain; /* or 'contain' if you want the full image in view */
+  height: 100vh; /* or a fixed height like 500px */
+  background-size: cover; /* or 'contain' if you want the full image in view */
   background-position: center;
   background-repeat: no-repeat;
 }
-
