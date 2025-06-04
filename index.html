@@ -51,12 +51,12 @@
   </div>
 </nav>
 
-<section id="home">
-    <div class="container">
+<section id="home" class="hero-section">
+   <div class="container">
         <h5>NEW ARRIVALS</h5>
         <h1><span>Best Price</span> This Year</h1>
         <p>Kova store offers you very comfortable time<br>on walking and exercises.</p>
-        <button class="my-custom-button-class" onclick="location.href='shop.html'">Shop Now</button>
+        <button>Shop Now</button>
     </div>
 </section>
 
@@ -431,6 +431,23 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-  
+ <script>
+const hero = document.querySelector('.hero-section');
+const images = [
+  'https://i.pinimg.com/736x/5b/95/33/5b95337d01b573b5d80c0f1bdd3cc15f.jpg',
+  'https://i.pinimg.com/736x/00/bb/e3/00bbe367ce6423a8e0db3c433e265e0e.jpg',
+  'https://i.pinimg.com/736x/73/32/1f/73321fcf2896608131bce90d182faef8.jpg',
+];
+
+let index = 0;
+
+function changeBackground() {
+  hero.style.backgroundImage = `url('${images[index]}')`;
+  index = (index + 1) % images.length;
+}
+
+changeBackground(); // initial load
+setInterval(changeBackground, 3000); // change every 3s
+</script> 
 </body>
 </html>
