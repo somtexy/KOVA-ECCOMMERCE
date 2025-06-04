@@ -343,3 +343,15 @@ footer .copyright a:hover{
     color: #fff;
     background-color: #fb774b;
 }
+.hero-section {
+  height: auto; /* or a fixed height like 500px */
+  background-size: contain; /* or 'contain' if you want the full image in view */
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+.container {
+  color: white;
+  z-index: 2;
+  position: relative;
+}
