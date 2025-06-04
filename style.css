@@ -223,7 +223,18 @@ position: relative;
     transition: 0.3s all;
 
   }
+.hero-section {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000; /* Optional fallback color */
+}
 
+.container {
+  color: white;
+  z-index: 2;
+  position: relative;
+}
   .product:hover .buy-btn{
   transform: translateY(0);
     opacity: 1;
