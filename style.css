@@ -350,8 +350,4 @@ footer .copyright a:hover{
   background-repeat: no-repeat;
 } 
 
-.container {
-  color: white;
-  z-index: 2;
-  position: relative;
-}
+
