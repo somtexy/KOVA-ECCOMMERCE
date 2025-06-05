@@ -12,6 +12,7 @@ font-family: 'Poppins' , sans-serif;
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
+    color: #FFFFFF;
 }
 
 h2{
@@ -32,11 +33,14 @@ h4{
 h5{
     font-size: 1rem;
     font-weight: 400;
-    color: #1d1d1d;
+    color: #FFFFFF;
 }
 
 h6{
     color: #d8d8d8;
+}
+p{
+    color:  #FFFFFF;
 }
 
 button{
